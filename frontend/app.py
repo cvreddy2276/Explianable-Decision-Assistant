@@ -1,6 +1,7 @@
 """Professional Streamlit interface for the Explainable Decision Assistant."""
 
 import json
+import os
 from typing import Any, Dict
 
 import requests
@@ -9,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_URL = "http://127.0.0.1:8000/explain"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/explain")
 
 st.set_page_config(
     page_title="Explainable Decision Assistant",
