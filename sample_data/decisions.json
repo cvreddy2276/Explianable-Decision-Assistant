@@ -1,0 +1,24 @@
+[
+  {
+    "employee": "Rahul",
+    "experience": 5,
+    "traffic_score": 0.3,
+    "distance": 15,
+    "assigned_route": "Zone A"
+  },
+  {
+    "employee": "Priya",
+    "experience": 8,
+    "traffic_score": 0.8,
+    "distance": 4,
+    "assigned_route": "Central Priority Route",
+    "shift": "Morning"
+  },
+  {
+    "employee": "Arjun",
+    "experience": 2,
+    "traffic_score": 0.2,
+    "distance": 28,
+    "assigned_route": "Zone C"
+  }
+]
